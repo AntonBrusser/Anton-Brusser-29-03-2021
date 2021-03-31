@@ -1,0 +1,46 @@
+.bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width:25vw;
+    padding-left: 2%;
+}
+
+.left {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rightSub{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width:15vw;
+  padding-left: 2%;
+}
+
+.textDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.textBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.totalPrice {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2em;
+  margin-top: 1em
+}
